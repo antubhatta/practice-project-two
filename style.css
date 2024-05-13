@@ -2,3 +2,59 @@
     margin: 0px;
     padding: 0px;
 }
+.nav-container{
+    background-color: rgb(56, 56, 56);
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.items{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    
+}
+.items li{
+    list-style-type: none;
+   
+}
+.photo{
+    width: 120px;
+}
+.items :hover{
+    color: blue;
+}
+.photoone{
+    width: 340px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url('./images/background.png'),linear-gradient(45deg, rgb(10, 7, 7), black);
+    color: white;
+}
+.banner-title{
+    font-size: 56px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.banner-desc{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.btn{
+    padding: 12px 20px 12px 20px;
+    color: white;
+    background-color: rgb(204, 35, 35);
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
